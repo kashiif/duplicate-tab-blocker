@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://duplicate-tab-blocker/locale/options.dtd">
+
+
+<prefwindow id="duplicateTabBlockerPreferences"
+        title="&duplicatetabblocker.options.windowtitle;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+  <prefpane>
+    <preferences>
+      <preference id="pref.pref1" name="extensions.duplicatetabblocker.pref1" type="string" />
+      <preference id="pref.pref2" name="extensions.duplicatetabblocker.pref2" type="string" />
+      <preference id="pref.pref3" name="extensions.duplicatetabblocker.pref3" type="string" />
+    </preferences>
+    <groupbox>
+    	<caption>Groupbox Caption</caption>
+        <separator />
+        <checkbox id="" preference="pref.pref1"  label="&duplicatetabblocker.options.lblpref1;" />
+		<separator />
+		<checkbox id=""	preference="pref.pref2" label="&duplicatetabblocker.options.lblpref2;" />
+		<separator />
+		<checkbox id=""	preference="pref.pref3"  label="&duplicatetabblocker.options.lblpref3;" />
+	</groupbox>   
+  </prefpane>
+  
+  <script src="options.js"></script>
+  
+</prefwindow>

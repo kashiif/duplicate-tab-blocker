@@ -1,0 +1,6 @@
+content duplicate-tab-blocker ext-contents/ 
+
+locale	duplicate-tab-blocker	en-US	ext-contents/firefox/locale/en-US/
+
+skin	duplicate-tab-blocker	duplicate-tab-blocker-skin	ext-contents/firefox/skin/
+
