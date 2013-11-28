@@ -92,7 +92,7 @@ module.exports = function(grunt) {
         replacements: [
           {
             pattern: /\<em\:name\>.+\<\/em\:name\>/g,
-            replacement: "<em:name>" + pkg.name + "</em:name>"
+            replacement: "<em:name>" + pkg.name.replace(/\-/g, " ") + "</em:name>"
           },
           {
             pattern: /\<em\:creator\>.+\<\/em\:creator\>/g,

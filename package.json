@@ -1,12 +1,12 @@
 {
-  "name": "Duplicate Tab Blocker",
-	"description": "Allow only one tab for a url. If you click a link that is already opened in a tab, that tab would be focused instead of a new tab.",
+  "name": "Duplicate-Tab-Blocker",
+  "description": "Allow only one tab for a url. If you click a link that is already opened in a tab, then existing tab would be focused instead of opening a new tab.",
   "version": "0.1.0",
   "author": {
     "name": "Kashif Iqbal Khan",
     "email": "kashiif@gmail.com",
     "url": "www.kashiif.com"
-  },  
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",

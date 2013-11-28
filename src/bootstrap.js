@@ -68,11 +68,15 @@ function startup(data, reason) {
   resource.setSubstitution('duplicate-tab-blocker', alias);
 
   Cu.import('resource://duplicate-tab-blocker/ext-contents/firefox/main/duplicatetabblocker.js');
+  
+  /*
   Cu.import('resource://duplicate-tab-blocker/ext-contents/firefox/lib/propertyfile.jsm');
 
   var propertyFile = new PropertyFile('chrome://duplicate-tab-blocker/locale/duplicatetabblocker.properties');
 
   duplicateTabBlocker.init(propertyFile);
+  */
+  duplicateTabBlocker.init();
 
   let wm = Cc['@mozilla.org/appshell/window-mediator;1'].getService(Ci.nsIWindowMediator);
 

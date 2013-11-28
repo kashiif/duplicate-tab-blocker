@@ -70,6 +70,8 @@ var utils = {
   
 };
 
+var gConsoleService = null;
+
 var logger = {
   _prefix: "",
   init: function(prefix) {
