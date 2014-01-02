@@ -157,7 +157,8 @@ var duplicateTabBlocker = {
     gBrowser.addTab = function( aURI ) {
 
       // When UndoCloseTab, aURI is ""
-      if (aURI) {
+      duplicateTabBlocker.debug("gBrowser.addTab: " + aURI);
+      if (aURI && aURI != "about:newtab") {
         var tab = duplicateTabBlocker.findTabForHref(aURI);
 
         if(tab) {
